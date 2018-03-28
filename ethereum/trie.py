@@ -1,3 +1,6 @@
+
+# link: https://github.com/ethereum/wiki/wiki/Patricia-Tree
+
 def compact_encode(hexarray):
     # whether the last element is 16, if it is 16, then it is treated as an extension node.
     term = 1 if hexarray[-1] == 16 else 0 
@@ -114,23 +117,4 @@ def get(node,path):
 # hashG:    [ <35>, 'coin' ]
 # 1 is the flag. leaf node with path of odd length
 # it correspond to path element 5, and the value is 'coin'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
